@@ -32,8 +32,9 @@ if __name__ == "__main__":
         help()
         sys.exit(1)
 
-    p1 = sys.argv[1].lower()
-    if p1 == 'h' or p1 =="help":
+    p1 = sys.argv[1]
+    p_help = p1..lower()
+    if p_help == 'h' or p_help =="help":
         help()
         sys.exit(0)
 
